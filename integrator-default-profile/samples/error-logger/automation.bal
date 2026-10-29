@@ -9,6 +9,7 @@ type Order record {|
 // so every run fails on it in the same diagnosable way: this sample exists to
 // give observability and RCA tooling a failure to analyse. Correct that amount
 // to make the runs succeed.
+//cloud editor commit 
 final Order[] & readonly batch = [
     {id: "ORD-1001", amount: "120.50"},
     {id: "ORD-1002", amount: "75.00"},
